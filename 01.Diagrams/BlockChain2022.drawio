@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T20:39:19.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="iEbzZ92HVFcxTRqEEMC1" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T20:53:22.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="aDn6xQd6ENcFJQfxRHVn" version="17.1.2" type="github">
   <diagram id="XzU88MFnE1Mp-erbCHA6" name="整体架构">
-    <mxGraphModel dx="1409" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1409" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-22" value="&lt;sup&gt;Server&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="400" height="120" as="geometry" />
+        </mxCell>
         <object label="Batch Send" id="IMkSQCw6tzFDL6CUBRC3-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
             <mxGeometry x="40" y="70" width="150" height="60" as="geometry" />
@@ -20,24 +23,51 @@
         </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-5" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="170" as="sourcePoint" />
-            <mxPoint x="830" y="170" as="targetPoint" />
+            <mxPoint x="40" y="222" as="sourcePoint" />
+            <mxPoint x="830" y="222" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-6" value="Metamask" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="200" width="150" height="60" as="geometry" />
+          <mxGeometry x="40" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-7" value="Parity/Geth" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="200" width="150" height="60" as="geometry" />
+          <mxGeometry x="240" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-10" value="etherscan" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="670" y="200" width="150" height="60" as="geometry" />
+          <mxGeometry x="670" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-11" value="Infura" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="460" y="200" width="150" height="60" as="geometry" />
+          <mxGeometry x="460" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-12" value="EVM Smart Contract / eth mainnet / kovan / NSC / OKT HECO" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;labelBackgroundColor=none;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="150" width="440" height="28" as="geometry" />
+          <mxGeometry x="205" y="210" width="440" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-13" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;fontColor=#000000;startArrow=none;" edge="1" parent="1" source="IMkSQCw6tzFDL6CUBRC3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="820" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-14" value="ETH infura" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;labelBackgroundColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="500" width="440" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-15" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" target="IMkSQCw6tzFDL6CUBRC3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="820" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-16" value="Remix / truffle&lt;br&gt;Smart contract" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-17" value="web3.js / web3J / Web3P" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="630" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-18" value="ethers.js" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-19" value="ethereum-tx" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="590" y="630" width="82" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
