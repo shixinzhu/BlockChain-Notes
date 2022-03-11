@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T20:37:22.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="8NTZ3QRRQIbLk5HSra-1" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T20:39:19.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="iEbzZ92HVFcxTRqEEMC1" version="17.1.2" type="github">
   <diagram id="XzU88MFnE1Mp-erbCHA6" name="整体架构">
     <mxGraphModel dx="1409" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,6 +35,9 @@
         </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-11" value="Infura" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="460" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-12" value="EVM Smart Contract / eth mainnet / kovan / NSC / OKT HECO" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;labelBackgroundColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="440" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
