@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T21:01:49.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="TcL5k0JBLyCMUXUTx6T6" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T21:25:17.820Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="90G9pfBDuE1mV7A3kbbc" version="17.1.2" type="github">
   <diagram id="XzU88MFnE1Mp-erbCHA6" name="整体架构">
     <mxGraphModel dx="1409" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,6 +57,9 @@
             <mxPoint x="820" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="IMkSQCw6tzFDL6CUBRC3-16" target="IMkSQCw6tzFDL6CUBRC3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IMkSQCw6tzFDL6CUBRC3-16" value="Remix / truffle&lt;br&gt;Smart contract" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="40" y="630" width="150" height="60" as="geometry" />
         </mxCell>
@@ -73,6 +76,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="610" as="sourcePoint" />
             <mxPoint x="480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMkSQCw6tzFDL6CUBRC3-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="593" as="sourcePoint" />
+            <mxPoint x="535" y="383" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
